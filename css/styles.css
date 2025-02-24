@@ -1,0 +1,135 @@
+:root {
+	--main-font-family: "Open Sans", sans-serif;
+	--secondary-font-family: "Raleway", sans-serif;
+}
+/* =========== COMPONENTS =========== */
+.suptitle {
+	font-family: var(--main-font-family);
+	font-size: 11px;
+	font-weight: 600;
+	line-height: 1.36;
+	text-transform: uppercase;
+}
+.section-descriotion {
+	font-family: var(--main-font-family);
+	font-size: 18px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	line-height: 1.67;
+}
+
+/* =========== HEADER =========== */
+.header {
+}
+.navigation {
+}
+.logo-link {
+}
+.navigation-list {
+}
+.navigation-item {
+}
+.navigation-link {
+	font-family: var(--main-font-family);
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	line-height: 1.33;
+}
+
+.phone-link {
+	font-family: var(--main-font-family);
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	line-height: 1.33;
+	text-transform: uppercase;
+}
+.header-button {
+	font-family: var(--main-font-family);
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.09em;
+	line-height: 1.33;
+}
+/* =========== /HEADER =========== */
+/* =========== HERO =========== */
+.hero-section {
+}
+.media-list {
+}
+.media-item {
+}
+.media-link {
+	font-family: var(--main-font-family);
+	font-size: 11px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	line-height: 1.36;
+}
+.hero-suptitle {
+}
+.hero-title {
+	font-family: var(--secondary-font-family);
+	font-size: 72px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	line-height: 1.18;
+}
+.hero-description {
+}
+/* =========== /HERO =========== */
+/* =========== ABOUT =========== */
+.about-section {
+}
+.about-list {
+}
+.about-item {
+}
+.about-img {
+}
+.about-suptitle {
+}
+.about-title {
+	font-family: var(--main-font-family);
+	font-size: 42px;
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	line-height: 1.17;
+}
+.about-description {
+}
+.about-text {
+	font-family: var(--main-font-family);
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: 0.02em;
+	line-height: 1.86;
+}
+.modal-button-about {
+	font-family: var(--main-font-family);
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.09em;
+	line-height: 1.33;
+	text-transform: uppercase;
+}
+/* =========== /ABOUT =========== */
+/* =========== SERVICES =========== */
+.services-section {
+}
+.services-suptitle {
+}
+.services-title {
+}
+.services-table {
+}
+.services-table-row {
+}
+.services-table-name {
+}
+.services-table-price {
+}
+.modal-button-services {
+}
+/* =========== /SERVICES =========== */

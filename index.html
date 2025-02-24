@@ -4,38 +4,45 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Barbershop</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Open+Sans:wwght@400,600,700&family=Raleway:wght@700&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<!-- -------------------- Header -------------------- -->
-		<header>
-			<nav>
-				<a href="./index.html"><img src="./images/logo.svg" alt="logotype" /></a>
-				<ul>
-					<li><a href="#about">About</a></li>
-					<li><a href="#services">Services and prices</a></li>
-					<li><a href="#barbers">Barbers</a></li>
-					<li><a href="#contacts">Contacts</a></li>
+		<header class="header">
+			<nav class="navigation">
+				<a class="logo-link" href="./index.html"><img src="./images/logo.svg" alt="logotype" /></a>
+				<ul class="navigation-list">
+					<li class="navigation-item"><a class="navigation-link" href="#about">About</a></li>
+					<li class="navigation-item"><a class="navigation-link" href="#services">Services and prices</a></li>
+					<li class="navigation-item"><a class="navigation-link" href="#barbers">Barbers</a></li>
+					<li class="navigation-item"><a class="navigation-link" href="#contacts">Contacts</a></li>
 				</ul>
 			</nav>
-			<a href="tel:+380441111111">+38 044 111 11 11</a>
-			<button type="button">Online-booking</button>
+			<a class="phone-link" href="tel:+380441111111">+38 044 111 11 11</a>
+			<button class="header-button" type="button">Online-booking</button>
 		</header>
 		<!-- -------------------- -------------------- -------------------- -->
 
 		<main>
 			<!-- -------------------- Hero ---------------------->
-			<section>
-				<ul>
-					<li>
-						<a href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+			<section class="hero-section">
+				<ul class="media-list">
+					<li class="media-item">
+						<a class="media-link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
 					</li>
-					<li>
-						<a href="" target="_blank" rel="noopener noreferrer">Youtube</a>
+					<li class="media-item">
+						<a class="media-link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
 					</li>
 				</ul>
-				<p>A hair salon for men in Kyiv</p>
-				<h1>BarberShop</h1>
-				<p>
+				<p class="hero-suptitle suptitle">A hair salon for men in Kyiv</p>
+				<h1 class="hero-title">BarberShop</h1>
+				<p class="hero-description section-descriotion">
 					We are experts in trendy men&#39;s haircuts.<br />
 					We work quickly, carefully and with style.
 				</p>
@@ -43,68 +50,82 @@
 			<!-- -------------------- -------------------- -------------------- -->
 
 			<!-- -------------------- About -------------------- -->
-			<section id="about">
-				<ul>
-					<li>
-						<img src="./images/about/about-img-1.jpg" alt="master shaving a client's beard" width="270" height="445" />
+			<section class="about-section" id="about">
+				<ul class="about-list">
+					<li class="about-item">
+						<img
+							class="about-img"
+							src="./images/about/about-img-1.jpg"
+							alt="master shaving a client's beard"
+							width="270"
+							height="445"
+						/>
 					</li>
-					<li>
-						<img src="./images/about/about-img-2.jpg" alt="master cutting a client's hair" width="270" height="445" />
+					<li class="about-item">
+						<img
+							class="about-img"
+							src="./images/about/about-img-2.jpg"
+							alt="master cutting a client's hair"
+							width="270"
+							height="445"
+						/>
 					</li>
 				</ul>
-				<p>About</p>
-				<h2>Best Barbershop in your city</h2>
-				<p> If you want to add more confidence to your image, you should definitely visit us. </p>
-				<p>
+				<p class="about-suptitle suptitle">About</p>
+				<h2 class="about-title">Best Barbershop in your city</h2>
+				<p class="about-description section-descriotion">
+					If you want to add more confidence to your image, you should definitely visit us.
+				</p>
+				<p class="about-text">
 					We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into
 					the hands of our master, you will never be the same again. We are a team that is always "on the same wave"
 					with clients. Therefore, we are always ready to improve everyone who comes to us!
 				</p>
-				<button type="button">Online-booking</button>
+				<button class="modal-button-about" type="button">Online-booking</button>
 			</section>
 			<!-- -------------------- -------------------- -------------------- -->
 
 			<!-- -------------------- Services -------------------- -->
-			<section id="services">
-				<p>Spend your time with the best masters</p>
-				<h2>Services and prices</h2>
-				<table>
-					<tr>
-						<td>Men&#39;s haircut</td>
-						<td>from 300 uah.</td>
+			<section class="services-section" id="services">
+				<p class="services-suptitle">Spend your time with the best masters</p>
+				<h2 class="services-title">Services and prices</h2>
+				<table class="services-table">
+					<tr class="services-table-row">
+						<td class="services-table-name">Men&#39;s haircut</td>
+						<td class="services-table-price">from 300 uah.</td>
 					</tr>
-					<tr>
-						<td>Beard trim</td>
-						<td>from 300 uah.</td>
+					<tr class="services-table-row">
+						<td class="services-table-name">Beard trim</td>
+						<td class="services-table-price">from 300 uah.</td>
 					</tr>
-					<tr>
-						<td>Mustache trim</td>
-						<td>from 200 uah.</td>
+					<tr class="services-table-row">
+						<td class="services-table-name">Mustache trim</td>
+						<td class="services-table-price">from 200 uah.</td>
 					</tr>
-					<tr>
-						<td>Straight razor shave</td>
-						<td>from 200 uah.</td>
-					</tr>
-				</table>
-				<table>
-					<tr>
-						<td>Trainee&#39;s haircut</td>
-						<td>from 50 uah.</td>
-					</tr>
-					<tr>
-						<td>Haircut under the nozzle</td>
-						<td>from 200 uah.</td>
-					</tr>
-					<tr>
-						<td>Children&#39;s haircut (0-12 y.o.)</td>
-						<td>from 300 uah.</td>
-					</tr>
-					<tr>
-						<td>Camouflage of gray hair</td>
-						<td>from 200 uah.</td>
+					<tr class="services-table-row">
+						<td class="services-table-name">Straight razor shave</td>
+						<td class="services-table-price">from 200 uah.</td>
 					</tr>
 				</table>
-				<button type="button">Online-booking</button>
+				<table class="services-table">
+					<tr class="services-table-row">
+						<td class="services-table-name">Trainee&#39;s haircut</td>
+						<td class="services-table-price">from 50 uah.</td>
+					</tr>
+					<tr class="services-table-row">
+						<td class="services-table-name">Haircut under the nozzle</td>
+						<td class="services-table-price">from 200 uah.</td>
+					</tr>
+					<tr class="services-table-row">
+						<td class="services-table-name">Children&#39;s haircut (0-12 y.o.)</td>
+						<td class="services-table-price">from 300 uah.</td>
+					</tr>
+					<tr class="services-table-row">
+						<td class="services-table-name">Camouflage of gray hair</td>
+						<td class="services-table-price">from 200 uah.</td>
+					</tr>
+				</table>
+				<button class="modal-button-services" type="button">Online-booking</button>
 			</section>
 			<!-- -------------------- -------------------- -------------------- -->
 
