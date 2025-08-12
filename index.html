@@ -10,42 +10,50 @@
 			href="https://fonts.googleapis.com/css2?family=Open+Sans:wwght@400,600,700&family=Raleway:wght@700&display=swap"
 			rel="stylesheet"
 		/>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@3.0.1/modern-normalize.min.css" />
 		<link rel="stylesheet" href="./css/styles.css" />
 	</head>
 	<body>
 		<!-- -------------------- Header -------------------- -->
 		<header class="header">
-			<nav class="navigation">
-				<a class="logo-link link" href="./index.html"><img src="./images/logo.svg" alt="logotype" /></a>
-				<ul class="navigation-list list">
-					<li class="navigation-item"><a class="navigation-link link" href="#about">About</a></li>
-					<li class="navigation-item"><a class="navigation-link link" href="#services">Services and prices</a></li>
-					<li class="navigation-item"><a class="navigation-link link" href="#barbers">Barbers</a></li>
-					<li class="navigation-item"><a class="navigation-link link" href="#contacts">Contacts</a></li>
-				</ul>
-			</nav>
-			<a class="phone-link link" href="tel:+380441111111">+38 044 111 11 11</a>
-			<button class="header-button modal-button button" type="button">Online-booking</button>
+			<div class="container header-container">
+				<nav class="navigation">
+					<a class="logo-link link" href="./index.html"><img src="./images/logo.svg" alt="logotype" /></a>
+					<ul class="navigation-list list">
+						<li class="navigation-item"><a class="navigation-link link" href="#about">About</a></li>
+						<li class="navigation-item"><a class="navigation-link link" href="#services">Services and prices</a></li>
+						<li class="navigation-item"><a class="navigation-link link" href="#barbers">Barbers</a></li>
+						<li class="navigation-item"><a class="navigation-link link" href="#contacts">Contacts</a></li>
+					</ul>
+				</nav>
+				<a class="phone-link link" href="tel:+380441111111">+38 044 111 11 11</a>
+				<button class="header-button modal-button button" type="button">Online-booking</button>
+			</div>
 		</header>
 		<!-- -------------------- -------------------- -------------------- -->
 
 		<main>
 			<!-- -------------------- Hero ---------------------->
 			<section class="hero-section">
-				<ul class="media-list list">
-					<li class="media-item">
-						<a class="media-link link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
-					</li>
-					<li class="media-item">
-						<a class="media-link link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
-					</li>
-				</ul>
-				<p class="hero-suptitle section-suptitle">A hair salon for men in Kyiv</p>
-				<h1 class="hero-title section-title">BarberShop</h1>
-				<p class="hero-description section-descriotion">
-					We are experts in trendy men&#39;s haircuts.<br />
-					We work quickly, carefully and with style.
-				</p>
+				<div class="container hero-container">
+					<div class="hero-left-side">
+						<ul class="media-list list">
+							<li class="media-item">
+								<a class="media-link link" href="" target="_blank" rel="noopener noreferrer">Instagram</a>
+							</li>
+							<li class="media-item">
+								<a class="media-link link" href="" target="_blank" rel="noopener noreferrer">Youtube</a>
+							</li>
+						</ul>
+					</div>
+					<div class="hero-right-side">
+						<p class="hero-suptitle section-suptitle">A hair salon for men in Kyiv</p>
+						<h1 class="hero-title section-title">BarberShop</h1>
+						<p class="hero-description section-descriotion">
+							We are experts in trendy men&#39;s haircuts. We work quickly, carefully and with style.
+						</p>
+					</div>
+				</div>
 			</section>
 			<!-- -------------------- -------------------- -------------------- -->
 

@@ -9,6 +9,29 @@
 	--accent-color: #ff6c00;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+ul,
+ol {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
 body {
 	font-family: var(--main-font-family);
 }
@@ -24,6 +47,7 @@ body {
 button {
 	font-family: inherit;
 	cursor: pointer;
+	border-color: transparent;
 }
 
 .visually-hidden {
@@ -45,8 +69,21 @@ button {
 	white-space: nowrap;
 }
 
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 /* =========== COMPONENTS =========== */
 .modal-button {
+	padding: 12px 20px;
+	border-radius: 25px;
+	border: 1px solid var(--accent-color);
+	background-color: transparent;
+	min-width: 160px;
 	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 0.09em;
@@ -77,13 +114,25 @@ button {
 
 /* =========== HEADER =========== */
 .header {
+	padding-top: 32px;
+	padding-bottom: 32px;
 	background-color: rgba(25, 28, 38, 0.2);
 }
+
+.header-container {
+	display: flex;
+	align-items: center;
+}
 .navigation {
+	display: flex;
+	column-gap: 132px;
+	align-items: center;
 }
 .logo-link {
 }
 .navigation-list {
+	display: flex;
+	column-gap: 30px;
 }
 .navigation-item {
 }
@@ -101,6 +150,8 @@ button {
 }
 
 .phone-link {
+	margin-left: auto;
+	margin-right: 43px;
 	font-size: 12px;
 	font-weight: 600;
 	letter-spacing: 0.1em;
@@ -126,6 +177,18 @@ button {
 .hero-section {
 	background-color: rgba(25, 28, 38, 0.2);
 }
+.hero-container {
+	display: flex;
+}
+.hero-left-side {
+	flex-basis: 100px;
+}
+.hero-right-side {
+	flex-grow: 1;
+	padding-top: 272px;
+	padding-bottom: 208px;
+	padding-left: 100px;
+}
 .media-list {
 }
 .media-item {
@@ -143,15 +206,19 @@ button {
 	color: var(--accent-color);
 }
 .hero-suptitle {
+	margin-bottom: 20px;
 	color: rgba(157, 164, 189, 0.6);
 }
 .hero-title {
+	margin-bottom: 20px;
+
 	font-size: 72px;
 	line-height: 1.18;
 	color: var(--primary-text-color-theme-dark);
 }
 
 .hero-description {
+	width: 360px;
 	color: var(--secondary-text-color-theme-dark);
 }
 /* =========== /HERO =========== */
