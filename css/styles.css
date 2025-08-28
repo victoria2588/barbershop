@@ -714,11 +714,22 @@ button {
 	background-color: transparent;
 	border: 1px solid #555555;
 	border-radius: 50%;
+	transition: border-color var(--transition-duration-and-func);
+}
+
+.modal-close-btn:hover,
+.modal-close-btn:focus {
+	border-color: #ff6c00;
 }
 
 .modal-close-btn-icon {
-	fill: #111319;
-	stroke: #111319;
+	fill: #555555;
+	transition: fill var(--transition-duration-and-func);
+}
+
+.modal-close-btn:hover .modal-close-btn-icon,
+.modal-close-btn:focus .modal-close-btn-icon {
+	fill: #ff6c00;
 }
 
 .is-hidden {
