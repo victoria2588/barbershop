@@ -32,7 +32,7 @@
 					</ul>
 				</nav>
 				<a class="phone-link link" href="tel:+380441111111">+38 044 111 11 11</a>
-				<button class="header-button modal-button button" type="button">Online-booking</button>
+				<button class="header-button modal-button button" type="button" data-modal-open>Online-booking</button>
 			</div>
 		</header>
 		<!-- -------------------- -------------------- -------------------- -->
@@ -424,5 +424,18 @@
 			</div>
 		</footer>
 		<!-- -------------------- -------------------- -------------------- -->
+		<!-- -------------------- Backdrop -------------------- -->
+		<div class="backdrop is-hidden" data-modal>
+			<div class="modal">
+				<button class="modal-close-btn" type="button" data-modal-close>
+					<svg class="modal-close-btn-icon" width="24" height="24">
+						<use href="./images/sprite.svg#icon-close"></use>
+					</svg>
+				</button>
+			</div>
+		</div>
+		<!-- -------------------- -------------------- -------------------- -->
+
+		<script src="./js/modal.js"></script>
 	</body>
 </html>
